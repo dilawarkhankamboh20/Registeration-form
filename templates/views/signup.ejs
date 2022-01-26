@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <%- include("../partials/header.ejs") %>
+    <main id="signup">
+        <h3>Signup</h3>
+        <form action="/signup" method="POST">
+        <input type="text" placeholder="Enter uesr name" name="name"  required>
+        <input type="text" placeholder="Enter user email " name="email"  required>
+        <input type="text" placeholder="Enter user password " name="password"  required>
+        <label for="male">male</label>
+        <input type="radio" id="male" value="male" name="same">
+        <label for="female">female</label> 
+        <input type="radio" id="female"  value="female" name="same">
+        <input type="text" placeholder="Enter mobile number" name="mobile"  required>
+        <input type="text" placeholder="Enter user address " name="mobile"  required>
+        <button type="submit"  class="singup" >signup</button>
+        </form>
+    </main>
+</body>
+</html>

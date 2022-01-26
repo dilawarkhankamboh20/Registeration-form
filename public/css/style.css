@@ -1,0 +1,112 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+header{
+
+    background: orangered;
+    height: 10vh;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    padding-top: 1.3rem;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+ul li a{
+
+    color: white;
+    font-weight: bold;
+}
+
+.logo h2{
+
+    color: white;
+}
+
+
+
+section{
+    width: 40%;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+
+section p{
+    text-align: justify;
+    padding-top: 1rem;
+    line-height: 1.5rem;
+}
+
+
+
+#signup{
+    background: slateblue;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    border: 2px solid orange;
+    padding: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+input{
+
+    margin-bottom: 1rem;
+    outline: none;
+    margin-right:  0.5rem;
+    margin-top: 1rem;
+    border: none;
+    padding: 0.6rem 4rem;
+}
+
+
+.singup{
+
+    padding: 0.6rem 3rem;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    background: brown;
+}
+
+
+label{
+
+    color: white;
+    margin-left: 1rem;
+    padding-right: 0.5rem;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+main h3{
+
+    color: white;
+}
